@@ -1,0 +1,24 @@
+.banner-area {
+	width: 100vw;
+	height: 50vw;
+	position: fixed;
+	background-image: url(./m.jpg);
+	
+}
+.banner-area h2 {
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 20vw;
+    
+    margin-top: 45vw;
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+
+
+
