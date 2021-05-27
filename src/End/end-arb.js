@@ -4,7 +4,7 @@ import Final from './best.jpg';
 
 
 
-class end extends Component {
+class endarb extends Component {
     render() {
         return (
             <div className="end-body">
@@ -12,12 +12,12 @@ class end extends Component {
                     <img className="end-logo" src={Final} alt="" />
                 </div>
 
-                <div className="end-text"> ©  All Rights Reserved Terms of Use and Privacy Policy </div>
+                <div className="end-text">  جميع الحقوق محفوظة شروط الاستخدام وسياسة الخصوصية ©  </div>
 
             </div>
         )
     }
 }
 
-export default end
+export default endarb
 

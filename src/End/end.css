@@ -1,0 +1,22 @@
+.end-body{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 5vw;
+}
+
+.end-logo{
+    display: flex;
+    width: 4vw;
+    margin-top: 1vw;
+    margin-right: 15vw;
+
+}
+
+.end-text{
+    color: white;
+    margin-top: 2vw;
+    display: flex;
+    margin-right: 5vw;
+
+}
