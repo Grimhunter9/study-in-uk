@@ -3,8 +3,19 @@
 	height: 50vw;
 	position: fixed;
 	background-image: url(./m.jpg);
+    background-size: cover;
+    object-fit: contain;
+    
 	
 }
+
+.change-round1{
+    width: 100vw;
+	height: 50vw;
+	position: fixed;
+	background:royalblue;
+}
+
 .banner-area h2 {
     font-size: 1.5vw;
     color: white;

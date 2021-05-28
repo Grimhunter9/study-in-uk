@@ -13,11 +13,11 @@ export class contactenglish extends Component {
     return (
       <Mycontext.Consumer>{() =>
 
-        <div className="contact" id="CONTACTS">
+        <div className="contact" >
           <img className="touch-us" src={Touch} alt="" />
 
           <div className="contact-container">
-            <p className="info-eng" >Get in touch</p></div>
+            <p className="info-eng">Get in touch</p></div>
 
           <div className="get-container">
             <span className="shy-eng">Dont be Shy</span>

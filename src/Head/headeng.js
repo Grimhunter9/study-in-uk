@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Mycontext } from '../Mycontext/Context';
@@ -21,22 +21,24 @@ class headeng extends Component {
         return (
 
             <Mycontext.Consumer>
-                {({ change, changelan }) =>
+                {({ change, changelan, Bg }) =>
+            
                     <div>
                         <Navbar className="header" collapseOnSelect expand="lg">
-                            <Navbar.Brand><HashLink><img src={Logo} className="log" alt="my-logo" /></HashLink></Navbar.Brand>
-                            <Navbar.Toggle className="toggle-btn" aria-controls="responsive-navbar-nav" />
+                        
+                            <Navbar.Brand><img src={Logo} className="log" alt="my-logo" /></Navbar.Brand>
+                            <Navbar.Toggle className="toggle-btn" aria-controls="responsive-navbar-nav"/>
 
                             <Navbar.Collapse id="responsive-navbar-nav">
 
-                                <nav><HashLink className="b" smooth to="/#Home">Home</HashLink></nav>
+                                <nav><HashLink className="b" onClick={() => Bg()} smooth to="/#Home">Home</HashLink></nav>
 
                                 <nav className="b">
                                     <div class="dropdown">
                                         <nav class="dropbtn">About</nav>
                                         <div class="dropdown-content">
-                                            <nav className="li"><Link className="d" smooth to="">content</Link></nav>
-                                            <nav className="li"><Link className="d" smooth to="">content</Link></nav>
+                                            <nav onClick={() => Bg()} className="li"><HashLink className="d" smooth to="/#Univer">Universities</HashLink></nav>
+                                            <nav className="li"><HashLink className="d" smooth to="/Live-ua">Life in Ua</HashLink></nav>
                                         </div>
                                     </div>
 
@@ -46,9 +48,10 @@ class headeng extends Component {
                                     <div class="dropdown">
                                         <nav class="dropbtn">Services</nav>
                                         <div class="dropdown-content">
-                                            <nav className="li"><Link className="d" smooth to="">content</Link></nav>
-                                            <nav className="li"><Link className="d" smooth to="">content</Link></nav>
-                                            <nav className="li"><Link className="d" smooth to="">content</Link></nav>
+                                            <nav className="li"><HashLink className="d" smooth to="/Consoltation">Consoltation</HashLink></nav>
+                                            <nav className="li"><HashLink className="d" smooth to="/Invitation">Invitation</HashLink></nav>
+                                            <nav className="li"><HashLink className="d" smooth to="/Visa">Visa</HashLink></nav>
+                                            <nav className="li"><HashLink className="d" smooth to="/pickup">Pickup</HashLink></nav>
                                         </div>
                                     </div>
 

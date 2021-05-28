@@ -1,0 +1,117 @@
+.live-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vw;
+
+}
+
+
+
+
+
+.life-pic{
+    object-fit: contain;
+    width: 50vw;
+    margin-top: 2vw;
+ 
+}
+
+
+.life-div{
+
+    font-family: 'Alfa Slab One', cursive;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-right: 35vw;
+}
+
+.life-div-arb{
+
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(22, 2, 2);
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-left: 42vw;
+}
+
+
+
+.life-text{
+    margin-right: 70vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+.life-text-arb{
+margin-left: 55vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+.life-text2{
+    margin-right: 55vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+.life-text2-arb{
+    margin-left: 45vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+.life-text3{
+    margin-right: 38vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+.life-text3-arb{
+    margin-left: 40vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+.life-text4{
+    margin-right: 20vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+.life-text4-arb{
+    margin-left: 15vw;
+    font-size: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+
+
+.life-about{
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    margin-left:20vw ;
+    margin-right:17vw ;
+    color: blanchedalmond;
+}
+
+
+.life-about-arb{
+    display: flex;
+    text-align: right;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    margin-left:20vw ;
+    margin-right:17vw ;
+    color: blanchedalmond;
+}

@@ -1,0 +1,173 @@
+.consolt-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 10vw;
+}
+
+
+.consolt-pic{
+    object-fit: contain;
+    width: 50vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.consolt-div{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-right: 50vw;
+}
+
+.consolt-div-ab{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-left: 50vw;
+}
+
+.consolt-enter{
+    display: flex;
+    font-size: 2vw;
+    color: blanchedalmond;
+    margin-right: 32vw;
+    margin-top: 2vw;
+
+}
+
+.consolt-enter-ab{
+    display: flex;
+    font-size: 2vw;
+    color: blanchedalmond;
+    margin-left: 32vw;
+    margin-top: 2vw;
+
+}
+
+.consolt-form-arb{
+    display: flex;
+    float: right;
+    margin-top: 3vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 52vw;}
+
+
+
+.consolt-form{
+    display: flex;
+    float: right;
+    margin-top: 3vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 21.5vw;
+    margin-right: 40vw;
+    
+}
+
+
+.consolt-info{
+    padding: 1vw 1vw;
+    border-color: solid white 2px;
+    background-color: rgba(0,0,0,.1);
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+    width: 30vw;
+    margin-top:1vw;
+    border-radius: 0.5vw;
+}
+
+
+.consolt-touch{
+    padding: 1vw 1vw;
+    border-color: solid white 2px;
+    background-color: rgba(0,0,0,.1);
+    color: white;
+    font-size: 1vw;
+    height: 6vw;
+    text-align: center;
+    width: 30vw;
+    margin-top:1vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+}
+
+
+.pageclip-form__submit{
+    margin-left:0.1vw;
+    border-radius: 0.5vw;
+    background-color: blanchedalmond;
+    margin-top: 1vw;
+    width: 10vw;
+    padding: 0.5vw;
+    height: 2.8vw;
+
+}
+
+.pageclip-form__submit-ab{
+    margin-left:20vw;
+    border-radius: 0.5vw;
+    background-color: blanchedalmond;
+    margin-top: 1vw;
+    width: 10vw;
+    padding: 0.5vw;
+    height: 2.8vw;
+
+}
+
+
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+
+
+  .consolt-or{
+      display: flex;
+      color: blanchedalmond;
+      font-size: 2vw;
+      margin-right:60vw;
+      margin-top: 3vw;
+  }
+
+  .consolt-or-ab{
+    display: flex;
+    color: blanchedalmond;
+    font-size: 2vw;
+    margin-left:50vw;
+    margin-top: 3vw;
+}
+
+  .consolt-div-button{
+      display: flex; 
+  }
+
+
+  .consolt-button{
+      background-color: blanchedalmond;;
+      border-radius: 1.5vw;
+      font-size: 2vw;
+      margin-right: 30vw;
+      text-decoration: none;
+  }
+
+  .consolt-button-ab{
+    background-color: blanchedalmond;;
+    border-radius: 1.5vw;
+    font-size: 2vw;
+    margin-left: 30vw;
+    text-decoration: none;
+}
+
+  .consolt-hash{
+      text-decoration: none;
+      color: black;
+  }
+

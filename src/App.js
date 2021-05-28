@@ -7,15 +7,36 @@ import Harabic from './Head/headarab';
 import Roll from './Roll/roll';
 import Rollarb from './Roll/roll-arab';
 
+
 import Whyenglish from './Why/whyenglish';
 import Whyarab from './Why/whyarab';
+
 
 
 import Coneng from './Contacts/contact-eng';
 import Conarb from './Contacts/contact-arabic';
 
+
 import End from './End/end';
 import Endarb from './End/end-arb';
+
+
+import Uni from './University/Uni';
+import Uniarb from './University/uni-arab';
+
+
+import Live from './Live-ua/live';
+import Livearb from './Live-ua/live-arb';
+
+
+import Consol from './Consoltation/Consol';
+import Consolarb from './Consoltation/Consol-arb';
+
+
+import Invite from './Invitation/inv';
+import Invitearb from './Invitation/inv-arb';
+
+
 
 import { Mycontext } from './Mycontext/Context';
 
@@ -30,6 +51,10 @@ import './Roll/roll.css';
 import './Why/why.css';
 import './Contacts/contact.css';
 import './End/end.css';
+import './University/Uni.css'
+import './Live-ua/live.css'
+import './Consoltation/Consol.css'
+import './Invitation/inv.css';
 
 
 
@@ -39,19 +64,33 @@ class App extends Component {
 
   state = {
     change: "en",
+    back:"1",
+    life:"a"
   }
 
   changelan = () => {
     this.setState({
       change: this.state.change === "en" ? "ab" : "en",
-
+   
     })
   }
+
+    Bg=()=>{
+      this.setState({
+        back:this.state.back==="1"?"2":"1"
+      })
+    }
+
+    Life=()=>{
+      this.setState({
+        life:this.state.life==="a"?"b":"a"
+      })
+    }
 
 
   render() {
     return (
-      <Mycontext.Provider value={{ change: this.state.change, changelan: this.changelan }}>
+      <Mycontext.Provider value={{ change: this.state.change, changelan: this.changelan, back:this.state.back , Bg:this.Bg , life:this.state.life, Life:this.Life }}>
 
         <Router>
 
@@ -62,6 +101,7 @@ class App extends Component {
 
             <div>{this.state.change == "en" ? <Roll /> : <Rollarb />}</div>
 
+
             <div class="content-area">
 
               <switch>
@@ -71,7 +111,7 @@ class App extends Component {
 
                   <div>{this.state.change == "en" ? <Whyenglish /> : <Whyarab />}</div>
 
-                  <div>{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
+                  <div  id="CONTACTS" >{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
 
                   <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
 
@@ -79,9 +119,51 @@ class App extends Component {
                 </Route>
 
 
-                <Route exact path="/Uni">
+                
+                <Route exact path="/Univer">
 
 
+                  <div id="Univer" >{this.state.change == "en" ? <Uni /> : <Uniarb />}</div>
+
+                  <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
+
+
+                </Route>
+                
+
+
+
+                <Route exact path="/Live-ua">
+
+
+                  <div>{this.state.change=="en"?<Live/>:<Livearb/>}</div>
+
+
+                  <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
+
+                  
+                </Route>
+
+
+
+                <Route exact path="/Consoltation">
+
+               
+                <div>{this.state.change=="en"?<Consol/>:<Consolarb/>}</div>
+                
+                <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
+
+
+
+                </Route>
+
+
+
+                <Route exact path="/Invitation">
+
+                <div  id="CONTACTS" >{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
+
+                <Invite/>
 
 
 
@@ -89,9 +171,26 @@ class App extends Component {
                 </Route>
 
 
+
+
+                <Route  exact path="/Visa"> 
+
+
+                </Route>
+
+
+                <Route  exact path="/pickup"> 
+
+
+                </Route>
+
+
+
+
               </switch>
 
             </div>
+
           </div>
 
         </Router>

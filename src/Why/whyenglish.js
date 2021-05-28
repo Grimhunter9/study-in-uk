@@ -11,7 +11,7 @@ class Whyenglish extends Component {
                     <img src={Flag} className="flag" alt="" />
                     <div className="why-div-english">
                         Why study in Ukraine?
-            </div>
+                   </div>
 
                     <div className="why-text-english">
 
