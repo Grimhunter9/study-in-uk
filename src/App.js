@@ -37,6 +37,14 @@ import Invite from './Invitation/inv';
 import Invitearb from './Invitation/inv-arb';
 
 
+import Visa from './apply-visa/Visa';
+import Visaarb from './apply-visa/Visa-arb';
+
+
+import Pickup from './Pickup/pick';
+import Pickuparb from './Pickup/pick-arb';
+
+
 
 import { Mycontext } from './Mycontext/Context';
 
@@ -51,10 +59,12 @@ import './Roll/roll.css';
 import './Why/why.css';
 import './Contacts/contact.css';
 import './End/end.css';
-import './University/Uni.css'
-import './Live-ua/live.css'
-import './Consoltation/Consol.css'
+import './University/Uni.css';
+import './Live-ua/live.css';
+import './Consoltation/Consol.css';
 import './Invitation/inv.css';
+import './apply-visa/Visa.css';
+import './Pickup/pick.css';
 
 
 
@@ -81,11 +91,7 @@ class App extends Component {
       })
     }
 
-    Life=()=>{
-      this.setState({
-        life:this.state.life==="a"?"b":"a"
-      })
-    }
+
 
 
   render() {
@@ -111,7 +117,8 @@ class App extends Component {
 
                   <div>{this.state.change == "en" ? <Whyenglish /> : <Whyarab />}</div>
 
-                  <div  id="CONTACTS" >{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
+                  <div  >{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
+                  <div id="CONTACTS"></div>
 
                   <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
 
@@ -123,7 +130,7 @@ class App extends Component {
                 <Route exact path="/Univer">
 
 
-                  <div id="Univer" >{this.state.change == "en" ? <Uni /> : <Uniarb />}</div>
+                  <div>{this.state.change == "en" ? <Uni /> : <Uniarb />}</div>
 
                   <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
 
@@ -161,13 +168,12 @@ class App extends Component {
 
                 <Route exact path="/Invitation">
 
-                <div  id="CONTACTS" >{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
+              
+                <div>{this.state.change=="en"?<Invite/>:<Invitearb/>}</div>
+                
+                <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
 
-                <Invite/>
-
-
-
-
+              
                 </Route>
 
 
@@ -175,11 +181,25 @@ class App extends Component {
 
                 <Route  exact path="/Visa"> 
 
+                
+                <div>{this.state.change=="en" ?<Visa/> : <Visaarb/>}</div>
+
+                <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
+
 
                 </Route>
 
 
                 <Route  exact path="/pickup"> 
+
+           
+
+                
+                <div>{this.state.change=="en" ?<Pickup/> : <Pickuparb/>}</div>
+
+
+                <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
+                
 
 
                 </Route>

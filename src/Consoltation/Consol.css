@@ -16,7 +16,7 @@
 
 .consolt-div{
     font-family: 'Alfa Slab One', cursive;
-    color: rgba(0, 0, 0, 0.733);
+    color: #D4C10D;
     font-size: 3vw;
     margin-top: 2vw;
     margin-right: 50vw;
@@ -24,7 +24,7 @@
 
 .consolt-div-ab{
     font-family: 'Alfa Slab One', cursive;
-    color: rgba(0, 0, 0, 0.733);
+    color: #D4C10D;
     font-size: 3vw;
     margin-top: 2vw;
     margin-left: 50vw;
@@ -152,15 +152,15 @@
 
   .consolt-button{
       background-color: blanchedalmond;;
-      border-radius: 1.5vw;
+      border-radius: 1vw;
       font-size: 2vw;
       margin-right: 30vw;
       text-decoration: none;
   }
 
   .consolt-button-ab{
-    background-color: blanchedalmond;;
-    border-radius: 1.5vw;
+    background-color: blanchedalmond;
+    border-radius: 1vw;
     font-size: 2vw;
     margin-left: 30vw;
     text-decoration: none;

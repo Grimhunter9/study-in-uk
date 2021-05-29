@@ -17,7 +17,8 @@
 
 .why-div-english{
     font-family: 'Alfa Slab One', cursive;
-    color: rgba(0, 0, 0, 0.733);
+   /* color: rgba(0, 0, 0, 0.733);*/
+   color: #D4C10D;
     font-size: 5vw;
     margin-top: 2vw;
     margin-right: 15vw;
@@ -26,7 +27,7 @@
 
 .why-div-arab{
     font-family: 'Alfa Slab One', cursive;
-    color: rgb(22, 2, 2);
+    color: #D4C10D;
     font-size: 5vw;
     margin-top: 2vw;
     margin-left: 22vw;

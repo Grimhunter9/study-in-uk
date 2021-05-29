@@ -6,8 +6,8 @@ import { Mycontext } from '../Mycontext/Context';
 import EN from './eng.jpg';
 import AB from './arab.jpg';
 
-
 import Logo from './best.jpg';
+
 
 
 //© 2021 All Rights Reserved Terms of Use and Privacy Policy  add in the end 
@@ -37,7 +37,7 @@ class headeng extends Component {
                                     <div class="dropdown">
                                         <nav class="dropbtn">About</nav>
                                         <div class="dropdown-content">
-                                            <nav onClick={() => Bg()} className="li"><HashLink className="d" smooth to="/#Univer">Universities</HashLink></nav>
+                                            <nav onClick={() => Bg()} className="li"><HashLink className="d" smooth to="/Univer">Universities</HashLink></nav>
                                             <nav className="li"><HashLink className="d" smooth to="/Live-ua">Life in Ua</HashLink></nav>
                                         </div>
                                     </div>
@@ -50,8 +50,8 @@ class headeng extends Component {
                                         <div class="dropdown-content">
                                             <nav className="li"><HashLink className="d" smooth to="/Consoltation">Consoltation</HashLink></nav>
                                             <nav className="li"><HashLink className="d" smooth to="/Invitation">Invitation</HashLink></nav>
-                                            <nav className="li"><HashLink className="d" smooth to="/Visa">Visa</HashLink></nav>
-                                            <nav className="li"><HashLink className="d" smooth to="/pickup">Pickup</HashLink></nav>
+                                            <nav className="li"><HashLink className="d" smooth to="/Visa">Visa-apply</HashLink></nav>
+                                            <nav className="li"><HashLink className="d" smooth to="/pickup">Airport pick up</HashLink></nav>
                                         </div>
                                     </div>
 

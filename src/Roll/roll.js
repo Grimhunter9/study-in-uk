@@ -14,9 +14,7 @@ class roll extends Component {
 
                 <div>
 
-                    <div class="banner-area"
-
-                        style={{ backgroundImage: back == "1" ? `url(${Un})` : `url(${Ver})` }}>
+                    <div class="banner-area"/*style={{ backgroundImage: back == "1" ? `url(${Un})` : `url(${Ver})` }}*/>
 
                         <h2>"Understand that one day you will have the power to make a difference, so use it well."</h2>
                     </div>

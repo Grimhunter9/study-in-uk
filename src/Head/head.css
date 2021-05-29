@@ -1,27 +1,25 @@
-  
-  
   .header{
   z-index: 10;
 	position: fixed;
   display: flex;
   width: 100%;
-  background-color: #242c63;
+  background-color: #143A83;
   border-bottom: white  solid;
-    
-  }
+ }
 
   
   .log{
     display: flex;
     width: 4vw;
     margin-left: 10vw;
-}
+  }
 
 	
 
 	.b{
 		font-size: 2vw;
-    color: white;
+ /* color: white;*/
+    color: #D4C10D;
 		margin-left: 7vw;
 		font-family: poppins;
 		letter-spacing: 0.1em;
@@ -34,8 +32,11 @@
  .d{
       display: flex;
       text-decoration: none;
-      margin-left: 2vw;
-    
+      justify-content: center;
+      align-items: center;
+      border-bottom-width: 1vw black solid ;
+      color: white;
+
    }
 
 
@@ -45,7 +46,7 @@
       font-size: 2vw;
       font-family: poppins;
       letter-spacing: 0.1em;
-      color:white;
+      color: #D4C10D;
       text-decoration: none;
       cursor: pointer;
       }
@@ -59,7 +60,8 @@
         display: none;
         position: absolute;
         width: 20vw;
-        background-color: #f1f1f1;
+        border-radius:0.8vw;
+        background-color: #111c5e;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.699);
         z-index: 1;
         
@@ -72,7 +74,7 @@
       }
 
       .li:hover{
-        background-color: #ddd;
+        background-color: #D4C10D;
 
       }
 
