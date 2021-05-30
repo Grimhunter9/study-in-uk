@@ -13,7 +13,7 @@ class pickarb extends Component {
                 <div className="pick-container">
                     <img className="pick-pic" src={Air} alt=""/>
                     <div className="pick-div-arb" id="pickup">خدمتنا لك ستكون من دواعي سرورنا</div>
-                    <div className="pick-text-arb">تشمل خدماتنا أيضًا اسطحابك  من المطار ، والتأكد من أن كل شيء على رضاك
+                    <div className="pick-text-arb">تشمل خدماتنا أيضًا استقبالك من المطار  واصطحابك  الى السكن الجامعي ، والتأكد من أن كل شيء على رضاك
                     </div>
 
                 </div>

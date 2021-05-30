@@ -161,6 +161,58 @@
     
 }
 
+.hash-consolt-eng{
+    text-decoration: none;
+    color:#143A83;
+}
+
+
+
+.button-consolt-eng{
+    margin-left: 15vw;
+    border-radius:9px;
+    background-color:#D4C10D;
+    font-size: 30pxpx;
+    padding: 10px;
+    padding-left: 8px;
+    font-weight: bolder;
+    padding-right: 8px
+}
+
+.button-consolt-arb{
+
+    margin-left: 70.5vw;
+    border-radius:9px;
+    background-color:#D4C10D;
+    font-size: 30pxpx;
+    padding: 10px;
+    padding-left: 8px;
+    font-weight: bolder;
+    padding-right: 8px
+}
+
+
+.hash-consolt-arb{
+    text-decoration: none;
+    color:#143A83;
+}
+
+
+
+
+.get-arb3-link{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+    margin-left:74.5vw;
+    margin-right:1vw;
+    margin-top: 2vw;
+    display: flex;
+}
+
+
 
 
 
@@ -195,18 +247,6 @@
 }
 
 
-
-
-/*.sub{
-   border-radius: 0.5vw;
-    margin-top: 1vw;
-    width: 10vw;
-    padding: 0.5vw;
-    height: 2.8vw;
-    margin-left: vw;
-    
-}*/
-
 .pageclip-form{
  margin-right: 5vw;
 }
@@ -220,14 +260,7 @@
     width: 15vw;
     padding: 0.5vw;
     height: 2.8vw;
-    /*background:linear-gradient(
-        10deg,
-        crimson,
-        purple
-    
-    
 
-    )*/
 }
 
 
@@ -399,10 +432,50 @@
         margin-left:45vw;
         margin-right:1vw;
         margin-top: -5vw;
-        
-        
     }
-   
+
+    .get-arb3-link{
+        margin-left:70vw;
+        margin-top: 5vw;
+    }
+    
+
+    .hash-consolt-eng{
+        text-decoration: none;
+        color:#143A83;
+    }
+    
+    
+    
+    .button-consolt-eng{
+        margin-left: 15vw;
+        border-radius:9px;
+        background-color:#D4C10D;
+        font-size: 5vw;
+        padding: 10px;
+        padding-left: 8px;
+        font-weight: bolder;
+        padding-right: 8px
+    }
+    
+
+    .button-consolt-arb{
+
+        margin-left: 68vw;
+        border-radius:9px;
+        background-color:#D4C10D;
+        font-size: 5.5vw;
+        padding: 10px;
+        padding-left: 8px;
+        font-weight: bolder;
+        padding-right: 8px
+    }
+    
+    
+    .hash-consolt-arb{
+        text-decoration: none;
+        color:#143A83;
+    }
         
 }
 

@@ -5,6 +5,7 @@ import Instagram from './Insta.jpg';
 import Telegram from './Telegram.jpg';
 import Whatsapp from './Wat.jpg';
 import { Mycontext } from '../Mycontext/Context';
+import { HashLink } from 'react-router-hash-link';
 
 
 export class contactarabic extends Component {
@@ -26,6 +27,9 @@ export class contactarabic extends Component {
                             <p className="get-arb2">تواصل معنا   </p>
                             <p className="get-arb3"> :عبر {" "}</p>
                             <a className="eml-arb" href="mailto:tbestfuture01@gmail.com">مراسلتنا عبر البريد الإلكتروني هنا</a>
+                            <p className="get-arb3-link"> : ناقشنا {" "}</p>
+                            <button className="button-consolt-arb"><HashLink className="hash-consolt-arb" smooth to="/Consoltation#Consoltation">اضغط هنا</HashLink></button>
+                         
                             <p className="get-arb4">:أو تابعنا{" "}</p>
                         </strong>
                     </div>

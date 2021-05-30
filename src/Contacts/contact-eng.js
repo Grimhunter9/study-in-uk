@@ -5,6 +5,7 @@ import Instagram from './Insta.jpg';
 import Telegram from './Telegram.jpg';
 import Whatsapp from './Wat.jpg';
 import { Mycontext } from '../Mycontext/Context';
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -27,6 +28,8 @@ export class contactenglish extends Component {
               <p className="get-eng">Contact us</p>
               <p className="get-eng"> by: {" "}</p>
               <a className="eml-eng" href="mailto:tbestfuture01@gmail.com">Emailing us here</a>
+              <p className="get-eng">Consolt us: {" "}</p>
+              <button className="button-consolt-eng"><HashLink className="hash-consolt-eng" smooth to="/Consoltation#Consoltation">Click here</HashLink></button>
               <p className="get-eng">or follow us on: {" "}</p>
             </strong>
           </div>
