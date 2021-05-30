@@ -47,3 +47,50 @@
     margin-right:20vw ;
     text-align: right;
 }
+
+
+@media(max-width:1200px){
+
+    .visa-pic{
+        object-fit: contain;
+        width: 75vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+
+    .visa-div{
+        font-family: 'Alfa Slab One', cursive;
+        color: #D4C10D;
+        font-size: 5vw;
+        margin-top: 5vw;
+        margin-right: 50vw;
+    }
+
+    .visa-div-arb{
+        font-family: 'Alfa Slab One', cursive;
+        color: #D4C10D;
+        font-size: 8vw;
+        margin-top: 5vw;
+        margin-left: 55vw;
+    }
+
+
+    .visa-text{
+        color: white;
+        font-size: 4.5vw;
+        margin-top: 10vw;
+        margin-left:17vw ;
+        margin-right:16vw ;
+    }
+
+
+    .visa-text-arb{
+        color: white;
+        font-size: 5vw;
+        margin-top: 10vw;
+        margin-left:12vw ;
+        margin-right:20vw ;
+        text-align: right;
+    }
+}

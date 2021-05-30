@@ -115,3 +115,111 @@ margin-left: 55vw;
     margin-right:17vw ;
     color: blanchedalmond;
 }
+
+
+@media(max-width:1200px){
+
+    .life-pic{
+        object-fit: contain;
+        width: 70vw;
+        margin-top: 2vw;
+     
+    }
+    
+    .life-div{
+
+        font-size: 5vw;
+        margin-top: 5vw;
+        margin-right: 32vw;
+    }
+
+    .life-div-arb{
+
+        font-family: 'Alfa Slab One', cursive;
+        color: #D4C10D;
+        font-size: 6vw;
+        margin-top: 5vw;
+        margin-left: 42vw;
+    }
+
+
+
+
+    .life-text{
+        margin-right: 70vw;
+        font-size: 5vw;
+        margin-top: 5vw;
+        color: white;
+    }
+
+    .life-text-arb{
+            margin-left: 55vw;
+            font-size: 5vw;
+            margin-top: 4vw;
+            color: white;
+        }
+
+
+
+    .life-text2{
+        margin-right: 52vw;
+        font-size: 4.5vw;
+        margin-top: 5vw;
+        color: white;
+    }
+
+    .life-text2-arb{
+        margin-left: 45vw;
+        font-size: 4.5vw;
+        margin-top: 4vw;
+        color: white;
+    }
+
+
+    .life-text3{
+        margin-right: 30vw;
+        font-size: 4vw;
+        margin-top: 5vw;
+        color: white;
+    }
+
+    .life-text3-arb{
+        margin-left: 40vw;
+        font-size: 4vw;
+        margin-top: 4vw;
+        color: white;
+    }
+
+    .life-text4{
+        margin-right: 15vw;
+        font-size: 3.5vw;
+        margin-top: 5vw;
+        color: white;
+    }
+
+    .life-text4-arb{
+        margin-left: 15vw;
+        font-size: 3.5vw;
+        margin-top: 4vw;
+        color: white;
+    }
+
+    .life-about{
+        font-size: 4.5vw;
+        margin-top: 2vw;
+        margin-left:20vw ;
+        margin-right:17vw ;
+        color: blanchedalmond;
+    }
+
+    .life-about-arb{
+        display: flex;
+        text-align: right;
+        font-size: 4.5vw;
+        margin-top: 2vw;
+        margin-left:20vw ;
+        margin-right:17vw ;
+        color: blanchedalmond;
+    }
+
+}

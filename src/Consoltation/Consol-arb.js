@@ -30,7 +30,7 @@ class Consol extends Component {
                             <input className="consolt-info" type={Text} name="email" required  placeholder="...أدخل بريدك الإلكتروني"></input>
                              <textarea className="consolt-touch"type={Text} name="body"  required  placeholder="...اسأل هنا" ></textarea>
                              <button  class="pageclip-form__submit-ab" type="submit" >
-                             <span className="spa">إرسال</span>
+                             <span className="spa-arb">إرسال</span>
                             </button>
                         </form>
                     </div>

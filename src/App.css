@@ -12,3 +12,12 @@ body{
 	
 }
 
+@media(max-width:1200px){
+
+	.content-area {
+		position: absolute;
+		top: 65vw;
+		background-color: #143A83;	
+	}
+
+}

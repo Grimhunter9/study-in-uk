@@ -45,6 +45,18 @@
     color: blanchedalmond;
 }
 
+.uni-text-1{
+    font-size: 2vw;
+    margin-top: 2vw;
+    color: blanchedalmond;
+}
+
+.uni-text-2{
+    font-size: 2vw;
+    margin-top: 2vw;
+    color: blanchedalmond;
+}
+
 .uni-about{
     color: blanchedalmond;
     margin-right: 50vw;
@@ -74,5 +86,82 @@
     font-size: 1.2vw;
     margin-left:15vw ;
     margin-right:20vw ;
+}
+
+
+
+@media(max-width:1200px){
+
+    .uni-pic{
+        width: 70vw;
+   
+    }
+
+    .uni-div{
+       
+        font-size: 4vw;
+        margin-top: 5vw;
+        margin-left: 12vw;
+        margin-right: 6vw;
+    }
+
+    .uni-div-arb{
+        font-size: 5vw;
+        margin-top: 5vw;
+        margin-left: 15vw;
+    }
+
+    .uni1-pic{
+        width: 70vw;
+        border-radius: 5vw;
+        margin-top: 10vw;
+        
+    }
+
+    .uni-text{
+        font-size: 4vw;
+        margin-top: 5vw;
+        color: blanchedalmond;
+    }
+
+
+    .uni-text-1{
+        font-size: 3.5vw;
+        margin-left:12vw ;
+        margin-right: 8vw;
+        margin-top: 5vw;    
+    }
+
+    .uni-text-2{
+        font-size: 3.5vw;
+        margin-left:12vw ;
+        margin-right: 8vw;
+        margin-top: 5vw;    
+    }
+
+    .uni-about{
+        margin-right: 40vw;
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+
+    .uni-about-arb{
+        margin-left: 40vw;
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+
+    .uni-about-text{
+        font-size: 4.5vw;
+        margin-left:18vw ;
+        margin-right:15vw ;
+    }
+
+
+    .uni-about-text-arb{
+        font-size: 4.5vw;
+        margin-left:15vw ;
+        margin-right:20vw ;
+    }
 }
 

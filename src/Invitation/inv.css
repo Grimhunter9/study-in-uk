@@ -95,3 +95,75 @@ ul {
   .pas{
       color:#D4C10D;
   }
+
+
+  @media (max-width:1200px) {
+
+    .inv-pic{
+        object-fit: contain;
+        width: 75vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+
+    .inv-div{
+        font-size: 4vw;
+        margin-top: 6vw;
+        margin-right: 20vw;
+    }
+
+    .inv-div-arb{
+  
+        font-size: 5vw;
+        margin-top: 6vw;
+        margin-left: 44vw;
+    
+    }
+    
+    
+
+    .inv-insure{
+
+        font-size:4.5vw;
+        margin-right: 10vw;
+        margin-left:10vw;
+        margin-top: 2vw;
+    }
+
+    .inv-insure-arb{
+      
+        font-size: 4.5vw;
+        margin-left: 18vw;
+        margin-right: 10vw;
+        margin-top: 2vw;
+    }
+
+
+    .inv-div-ul{
+        display: flex;
+        margin-top: 5vw;
+    }
+
+    .inv-div-ul-arb{
+        display: flex;
+        margin-top: 5vw;
+        
+    }
+      
+    .inv-li{
+        font-size: 4.5vw;
+        margin-top: 5vw;
+        font-family: 'Noticia Text', serif;
+        color: white;
+    }
+
+    .inv-li-arb{
+        font-size: 6vw;
+        margin-right: 7vw;
+        margin-top: 5vw;
+        margin-left: 1vw;
+        font-family: 'Noticia Text', serif;
+        color: white;
+    }
+  }

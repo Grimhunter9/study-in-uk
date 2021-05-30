@@ -23,7 +23,7 @@ class Consol extends Component {
 
                     <div className="consolt-form">
 
-                        <form action="">
+                    <form action="" class="pageclip-form" method="post">
 
                         <input className="consolt-info" type={Text} name="name"  required  placeholder="Enter your Name..."></input>
                             <input className="consolt-info" type={Text} name="email" required  placeholder="Enter your email..."></input>

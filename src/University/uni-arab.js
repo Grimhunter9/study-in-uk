@@ -49,7 +49,7 @@ class Uniarb extends Component {
 
 
                     <img src={Uni3} className="uni1-pic" alt="" />
-                    <p className="uni-text"> "جامعة التقنية الوطنية "معهد خاركيف بوليتكنيك</p>
+                    <p className="uni-text-2"> "جامعة التقنية الوطنية "معهد خاركيف بوليتكنيك</p>
 
                     <div>
                     <p className="uni-about-arb" > :عن الجامعة</p>
@@ -66,7 +66,7 @@ class Uniarb extends Component {
 
 
                     <img src={Uni4} className="uni1-pic" alt="" />
-                    <p className="uni-text">جامعة التقنية الوطنية في أوكرانيا معهد كييف للفنون التطبيقية</p>
+                    <p className="uni-text-2">جامعة التقنية الوطنية في أوكرانيا معهد كييف للفنون التطبيقية</p>
 
                     <div>
                     <p className="uni-about-arb" > :عن الجامعة</p>

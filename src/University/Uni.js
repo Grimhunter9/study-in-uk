@@ -46,7 +46,7 @@ class Uni extends Component {
 
 
                     <img src={Uni3} className="uni1-pic" alt="" />
-                    <p className="uni-text">National Technical University “Kharkiv Polytechnic Institute”</p>
+                    <p className="uni-text-1">National Technical University “Kharkiv Polytechnic Institute”</p>
 
                     <div>
                         <p className="uni-about">About the university:</p>
@@ -63,7 +63,7 @@ class Uni extends Component {
 
 
                     <img src={Uni4} className="uni1-pic" alt="" />
-                    <p className="uni-text">National Technical University of Ukraine  Kyiv Polytechnic Institute</p>
+                    <p className="uni-text-1">National Technical University of Ukraine  Kyiv Polytechnic Institute</p>
 
                     <div>
                         <p className="uni-about">About the university:</p>

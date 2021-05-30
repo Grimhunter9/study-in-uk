@@ -99,3 +99,93 @@
 
     margin-left: 36vw;
 }
+
+
+@media(max-width:1200px){
+
+    .flag{
+        object-fit: contain;
+        width: 70vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    
+
+    .why-div-english{
+
+        font-size: 6.5vw;
+        margin-top: 3vw;
+        margin-right: 2vw;
+    }
+
+
+    .why-div-arab{
+  
+        font-size: 7vw;
+        margin-top: 3vw;
+        margin-left: 22vw;
+    }
+
+
+
+    .span-english{
+        font-size: 6vw;
+        margin-top: 10vw;
+        color: rgb(214, 231, 59);
+    }
+
+
+    .span-arab{
+        font-size: 5vw;
+        margin-top: 10vw;
+        color: rgb(214, 231, 59);
+    }
+
+
+    .para-arab1{
+    
+        margin-left: 0.1vw;
+        
+    
+    }
+
+    .para-arab2{
+
+        margin-left: 20vw;
+        margin-top: 2vw;
+        
+    }
+
+    .para-arab3{
+        margin-left: 18vw;
+    }
+
+    .para-arab4{
+        margin-left: 40vw;
+    }
+
+    .para-arab5{
+        margin-left: 0.1vw;
+    
+    }
+
+
+    .why-text-english{
+        font-size: 6vw;   
+        margin-left:14vw;
+        margin-right: 8vw;
+        
+    }
+    
+
+    .why-text-arab{
+        
+        font-size: 5vw;   
+        margin-left:14vw;
+        margin-right: 8vw;
+    }
+
+    
+
+
+}

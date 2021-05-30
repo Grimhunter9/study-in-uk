@@ -112,7 +112,6 @@
     font-size: 1.2rem;
     color:white;
     font-weight: bolder;
-    
     text-align: right;
     margin-left:74vw;
     margin-right:1vw;
@@ -163,26 +162,9 @@
 }
 
 
-.bar3{
-    display: flex;
-    float: right;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: -9vw;
-    margin-left: 12vw;
-}
 
-.bar3-arb{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 9vw;
-    background-color: wheat;
-}
+
+
 
 
 .information{
@@ -289,142 +271,140 @@
 
 
 
-/*@media (max-width:1200px){
+@media (max-width:1200px){
 
-    .contact-container{
 
-        margin-left:8vw;
-        margin-top: 15vw;
+    .contact{
+        margin-top: 20vw;    
     }
 
 
-    .info{
-   
-    font-size: 5.8vw;
+    .touch-us{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    .info-eng{
+
+        font-size: 6.5vw;
+        margin-top: 5vw;
+    
+    }
+
+    .info-arb{
+        font-size: 7vw;
+        margin-top: 5vw;
+    }
+
+    .shy-arb{
+        margin-left:60vw;
+        margin-top: 2vw;
+        font-size: 6vw;
+    }
+    
+
+
+    .shy-eng{
+        font-size: 7vw;
+    
+    }
+
+
+    .get-eng{
+        font-size: 5vw;
+        margin-left:12vw;
+        margin-right:1vw;
+        margin-top: 5vw;
+        
+    }
+
+    .get-arb{
+        
+        font-size: 5vw;
+        margin-left:10vw;
+        margin-right:9vw;
+        margin-top: 5vw;
+    }
+    
+    .get-arb2{
+       
+        font-size:  6vw;
+
+        margin-left:65vw;
+        margin-right:1vw;
+        margin-top: 2vw;
+      
+    }
+
+    .get-arb3{
+       
+        font-size: 6vw;
+        margin-left:79vw;
+        margin-right:1vw;
   
-   }
 
-
-   .icon2{
-    font-size: 9vw;
-   }
-
-   .get-container{
-       display: flex;
-       flex-direction: column;
-   }
-
-   .get{
-
-    font-size: 4vw;
-    margin-left:20vw;
-    margin-right:1vw;
-
-   }
-   
-   .eml{
-       
-    display: flex;
-    margin-top: vw;
-    font-size: 4vw;
-    margin-right: 10vw;
-       
-   }
-
-   .bar1{
-    flex-direction: column;
-   }
-
-   .bar2{
-    display: flex;
-    margin-left:25vw;
-    margin-right:1vw;
-
+    }
     
-  }
-
-   
-  .link{
-    font-size: 1vw;  
-    
-    margin: 2vw;
-  }
-
-
-
 
     .fa{
-        width:12vw;
+        width:10vw;
         margin-top: 0.3vw;
         margin:1vw;
     }
-
-    .in{
-        width:12.5vw;
-        margin-top: 1vw;
-    }
-
-
-    .tl{
-        width:12vw;
-        margin-top: 0.3vw;
-        margin:1vw;
-
-    }
-
-    .bar3{
-
-        margin-left: 34vw;
-        margin-right: 1vw;
-        margin-top: 3vw;
-        
     
-        
+    .in{
+        width:10vw;
+        margin-top: 0.3vw;
     }
-
-    .information{
-        padding: 7vw 7vw;
-        font-size: 4vw;
-        width: 50vw;
-        margin-top:1vw;
-
+    
+    
+    .tl{
+        width:10vw;
+        margin-top: 0.3vw;
+        margin:1vw;
+    
     }
-
-    .touch{
-        padding: 7vw 7vw;
-        height: 6vw;
-        text-align: center;
-        width: 50vw;
-        margin-top:1vw;
-        font-size: 4vw;
-        border-radius: 0.5vw;
-
+    
+    .wp{
+        width:12vw;
+        margin-top: 0.5vw;
+     
     }
+    
 
-    .button-sub{
-        display: flex;
+    .link{
+        font-size: 2.3em;  
         margin-top: -5vw;
     }
-
-    .pageclip-form__submit{
-        display: flex;
-        margin-left: 29.5vw;
-        justify-content: center;
-        align-items: center;
-        border-radius: 0.5vw;
-        margin-top: 1vw;
-        width:25vw;
-        padding: 5vw 5vw;
-        background-color: whitesmoke;
-    }
-
-    .spa{
-     display: flex;
-     font-size: 3vw;
-    }
     
+
+    .eml-arb{
+
+        color: rgb(18, 197, 182);
+        text-decoration: none;
+        margin-left:15vw;
+    
+    }
+
+    .get-arb4{
         
-}*/
+        font-size: 1.2rem;
+        margin-left:65vw;
+        margin-right:1vw;
+        margin-top: 5vw;
+        
+    }
+     
+    .bar2-arb{
+        margin-left:45vw;
+        margin-right:1vw;
+        margin-top: -5vw;
+        
+        
+    }
+   
+        
+}
 
 
 

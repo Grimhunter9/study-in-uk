@@ -16,7 +16,8 @@ class headarab extends Component {
         return (
 
             <Mycontext.Consumer>
-                {({ change, changelan, Bg }) =>
+               {({ change, changelan, Bg1, Bg2, Bg3, Bg4, Bg5, Bg6, Bg7 }) =>
+
                     <div>
                         <Navbar className="header" collapseOnSelect expand="lg">
                             <Navbar.Brand><HashLink><img src={Logo} className="log" alt="my-logo" /></HashLink></Navbar.Brand>
@@ -24,14 +25,14 @@ class headarab extends Component {
 
                             <Navbar.Collapse id="responsive-navbar-nav">
 
-                                <nav><HashLink className="b" onClick={() => Bg()} smooth to="/#Home">الرئيسية</HashLink></nav>
+                                <nav><HashLink className="b" onClick={() => Bg1()} smooth to="/#Home">الرئيسية</HashLink></nav>
 
                                 <nav className="b">
                                     <div class="dropdown">
                                         <nav class="dropbtn" smooth to="">حول</nav>
                                         <div class="dropdown-content">
-                                            <nav onClick={() => Bg()} className="li"><HashLink className="d" smooth to="/Univer">الجامعات</HashLink></nav>
-                                            <nav className="li"><HashLink className="d" smooth to="/Live-ua">المعيشة</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg2()} className="d" smooth to="/Univer">الجامعات</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg3()} className="d" smooth to="/Live-ua">المعيشة</HashLink></nav>
 
                                         </div>
                                     </div>
@@ -42,10 +43,10 @@ class headarab extends Component {
                                     <div class="dropdown">
                                         <nav class="dropbtn">خدمات</nav>
                                         <div class="dropdown-content">
-                                            <nav className="li"><HashLink className="d" smooth to="/Consoltation">المشاورات</HashLink></nav>
-                                            <nav className="li"><HashLink className="d" smooth to="/Invitation">رسالة دعوة</HashLink></nav>
-                                            <nav className="li"><HashLink className="d" smooth to="/Visa">تأشيرة دخول</HashLink></nav>
-                                            <nav className="li"><HashLink className="d" smooth to="/pickup">استلام من المطار</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg4()} className="d" smooth to="/Consoltation">المشاورات</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg5()} className="d" smooth to="/Invitation">رسالة دعوة</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg6()} className="d" smooth to="/Visa">تأشيرة دخول</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg7()} className="d" smooth to="/pickup">استلام من المطار</HashLink></nav>
                                         </div>
                                     </div>
 

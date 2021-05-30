@@ -5,22 +5,14 @@
 	background-image: url(./m.jpg);
     background-size: cover;
     object-fit: contain;
-    
-	
 }
 
-.change-round1{
-    width: 100vw;
-	height: 50vw;
-	position: fixed;
-	background:royalblue;
-}
+
 
 .banner-area h2 {
     font-size: 1.5vw;
     color: white;
     margin-left: 20vw;
-    
     margin-top: 45vw;
     animation: fadein 4s;
 }
@@ -31,5 +23,24 @@
   }
 
 
+@media(max-width:1200px){
 
+    .banner-area {
+ 
+        margin-top: 15vw;
+  
+    }
+
+    .banner-area h2 {
+        font-size: 3.5vw;
+        color: white;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        margin-top: 40vw;
+        animation: fadein 4s;
+    }
+
+ 
+
+}
 
