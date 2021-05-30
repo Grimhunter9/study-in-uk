@@ -31,14 +31,14 @@ class headeng extends Component {
 
                             <Navbar.Collapse id="responsive-navbar-nav">
 
-                                <nav><HashLink className="b" onClick={() => Bg1()} smooth to="/#Home">Home</HashLink></nav>
+                                <nav><HashLink className="b" onClick={() => Bg1()} smooth to="/">Home</HashLink></nav>
 
                                 <nav className="b">
                                     <div class="dropdown">
                                         <nav class="dropbtn">About</nav>
                                         <div class="dropdown-content">
-                                            <nav className="li"><HashLink onClick={() => Bg2()} className="d" smooth to="/Univer">Universities</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg3()} className="d" smooth to="/Live-ua">Life in Ua</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg2()} className="d" smooth to="/Univer#Univer">Universities</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg3()} className="d" smooth to="/Live-ua#Live-ua">Life in Ua</HashLink></nav>
                                         </div>
                                     </div>
 
@@ -48,10 +48,10 @@ class headeng extends Component {
                                     <div class="dropdown">
                                         <nav class="dropbtn">Services</nav>
                                         <div class="dropdown-content">
-                                            <nav className="li"><HashLink onClick={() => Bg4()} className="d" smooth to="/Consoltation">Consoltation</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg5()} className="d" smooth to="/Invitation">Invitation</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg6()} className="d" smooth to="/Visa">Visa-apply</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg7()} className="d" smooth to="/pickup">Airport pick up</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg4()} className="d" smooth to="/Consoltation#Consoltation">Consoltation</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg5()} className="d" smooth to="/Invitation#Invitation">Invitation</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg6()} className="d" smooth to="/Visa#Visa">Visa-apply</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg7()} className="d" smooth to="/pickup#pickup">Airport pick up</HashLink></nav>
                                         </div>
                                     </div>
 

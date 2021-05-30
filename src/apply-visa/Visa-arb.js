@@ -12,7 +12,7 @@ class Visaarb extends Component {
             <Mycontext.Consumer>{() =>
                 <div className="visa-container">
                     <img className="visa-pic" src={Vis} alt="" />
-                    <div className="visa-div-arb">لا تقلق</div>
+                    <div className="visa-div-arb" id="Visa">لا تقلق</div>
                     <div className="visa-text-arb">
                     سنخبرك بالأوراق التي تحتاج إلى أخذها معك ، ونخبرك بأفضل وقت للتقدم بطلب للحصول على التأشيرة ،
                          بالنسبة للتوقيت ، سنخبرك بموعد المقابله في السفارة ، لذلك لا داعي للقلق

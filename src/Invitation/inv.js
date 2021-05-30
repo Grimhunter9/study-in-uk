@@ -14,7 +14,7 @@ import {Mycontext } from '../Mycontext/Context';
 
              <div className="inv-container">
                 <img className="inv-pic" src={Inv} alt=""/>
-                <div className="inv-div">We will take care of everything</div>
+                <div className="inv-div" id="Invitation">We will take care of everything</div>
                 <div className="inv-insure">Insuring that you have your invitation we need three things from you:</div>
 
                 <div className="inv-div-ul" >

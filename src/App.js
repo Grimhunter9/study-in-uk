@@ -167,14 +167,13 @@ class App extends Component {
           <div id="Home">
 
 
-            <div>{this.state.change == "en" ? <Henglish /> : <Harabic />}</div>
+           <div>{this.state.change == "en" ? <Henglish /> : <Harabic />}</div>
 
            <div>{this.state.change == "en" ? <Roll /> : <Rollarb />}</div>
 
 
+          <div class="content-area">
 
-
-            <div class="content-area">
               <switch>
 
                 <Route exact path="/">
@@ -182,24 +181,21 @@ class App extends Component {
 
                   <div>{this.state.change == "en" ? <Whyenglish /> : <Whyarab />}</div>
 
-                 <div  >{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
+                  <div  >{this.state.change == "en" ? <Coneng /> : <Conarb />}</div>
 
                   <div id="CONTACTS"></div>
 
-    <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
+                  <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
 
 
                 </Route>
 
 
-
-                 <Route exact path="/Univer">
-
+                <Route exact path="/Univer">
 
                   <div>{this.state.change == "en" ? <Uni /> : <Uniarb />}</div>
 
                   <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
-
 
                 </Route>
 
@@ -208,24 +204,20 @@ class App extends Component {
 
                 <Route exact path="/Live-ua">
 
-
                   <div>{this.state.change == "en" ? <Live /> : <Livearb />}</div>
 
 
                   <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
 
-
                 </Route>
 
 
 
-               <Route exact path="/Consoltation">
-
+                <Route exact path="/Consoltation">
 
                   <div>{this.state.change == "en" ? <Consol /> : <Consolarb />}</div>
 
                   <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
-
 
 
                 </Route>
@@ -259,13 +251,10 @@ class App extends Component {
                 <Route exact path="/pickup">
 
 
-
-
                   <div>{this.state.change == "en" ? <Pickup /> : <Pickuparb />}</div>
 
 
                   <div>{this.state.change == "en" ? <End /> : <Endarb />}</div>
-
 
 
                 </Route>

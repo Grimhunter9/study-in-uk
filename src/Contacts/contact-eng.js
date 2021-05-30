@@ -26,7 +26,7 @@ export class contactenglish extends Component {
               <p className="get-eng">Feel free to ask us anything that you want. We are always open to discussions</p>
               <p className="get-eng">Contact us</p>
               <p className="get-eng"> by: {" "}</p>
-              <a className="eml-eng" href="mailto:example@gmail.com">Emailing us here</a>
+              <a className="eml-eng" href="mailto:tbestfuture01@gmail.com">Emailing us here</a>
               <p className="get-eng">or follow us on: {" "}</p>
             </strong>
           </div>
@@ -34,7 +34,7 @@ export class contactenglish extends Component {
           <div className="bar1">
 
             <div className="bar2">
-              <a className="link" href="https://www.messenger.com/t/grim_hunter9"> <img className="fa" src={Facebook} alt="" /> </a>
+              <a className="link" href="https://www.messenger.com/t/"> <img className="fa" src={Facebook} alt="" /> </a>
               <a className="link" href="http://www.instagram.com/best_future_europ"> <img className="in" src={Instagram} alt="" /> </a>
               <a className="link" href="https://telegram.me/Bestfutre"> <img className="tl" src={Telegram} alt="" /> </a>
               <a className="link" href="https://wa.me/+380960498331"> <img className="wp" src={Whatsapp} alt="" /> </a>

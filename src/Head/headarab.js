@@ -31,8 +31,8 @@ class headarab extends Component {
                                     <div class="dropdown">
                                         <nav class="dropbtn" smooth to="">حول</nav>
                                         <div class="dropdown-content">
-                                            <nav className="li"><HashLink onClick={() => Bg2()} className="d" smooth to="/Univer">الجامعات</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg3()} className="d" smooth to="/Live-ua">المعيشة</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg2()} className="d" smooth to="/Univer#Univer">الجامعات</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg3()} className="d" smooth to="/Live-ua#Live-ua">المعيشة</HashLink></nav>
 
                                         </div>
                                     </div>
@@ -43,10 +43,10 @@ class headarab extends Component {
                                     <div class="dropdown">
                                         <nav class="dropbtn">خدمات</nav>
                                         <div class="dropdown-content">
-                                            <nav className="li"><HashLink onClick={() => Bg4()} className="d" smooth to="/Consoltation">المشاورات</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg5()} className="d" smooth to="/Invitation">رسالة دعوة</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg6()} className="d" smooth to="/Visa">تأشيرة دخول</HashLink></nav>
-                                            <nav className="li"><HashLink onClick={() => Bg7()} className="d" smooth to="/pickup">استلام من المطار</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg4()} className="d" smooth to="/Consoltation#Consoltation">المشاورات</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg5()} className="d" smooth to="/Invitation#Invitation">رسالة دعوة</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg6()} className="d" smooth to="/Visa#Visa">تأشيرة دخول</HashLink></nav>
+                                            <nav className="li"><HashLink onClick={() => Bg7()} className="d" smooth to="/pickup#pickup">استلام من المطار</HashLink></nav>
                                         </div>
                                     </div>
 

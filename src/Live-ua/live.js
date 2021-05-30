@@ -21,7 +21,7 @@ class live extends Component {
                 <div className="live-container">
                     <img className="life-pic" src={Life} alt="" />
 
-                    <div className="life-div">Living in Ukraine</div>
+                    <div className="life-div" id="Live-ua">Living in Ukraine</div>
 
                     <div>
                         <p className="life-text">Life:</p>

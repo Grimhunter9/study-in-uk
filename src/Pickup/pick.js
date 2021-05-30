@@ -12,7 +12,7 @@ class pick extends Component {
             <Mycontext.Consumer>{() =>
                 <div className="pick-container">
                     <img className="pick-pic" src={Air} alt=""/>
-                    <div className="pick-div">Serving you would be our pleasure</div>
+                    <div className="pick-div" id="pickup">Serving you would be our pleasure</div>
                     <div className="pick-text">
                          Our services include also a pick from the airport, and ensuring that 
                          evreything is to your liking

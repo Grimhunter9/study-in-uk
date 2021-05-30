@@ -25,7 +25,7 @@ export class contactarabic extends Component {
                             <p className="get-arb">لا تتردد في سؤالنا عن أي شيء تريده. نحن دائما منفتحون الى المناقشات</p>
                             <p className="get-arb2">تواصل معنا   </p>
                             <p className="get-arb3"> :عبر {" "}</p>
-                            <a className="eml-arb" href="mailto:example@gmail.com">مراسلتنا عبر البريد الإلكتروني هنا</a>
+                            <a className="eml-arb" href="mailto:tbestfuture01@gmail.com">مراسلتنا عبر البريد الإلكتروني هنا</a>
                             <p className="get-arb4">:أو تابعنا{" "}</p>
                         </strong>
                     </div>
@@ -33,7 +33,7 @@ export class contactarabic extends Component {
                     <div className="bar1">
 
                         <div className="bar2-arb">
-                            <a className="link" href="https://www.messenger.com/t/grim_hunter9"> <img className="fa" src={Facebook} alt="" /> </a>
+                            <a className="link" href="https://www.messenger.com/t/"> <img className="fa" src={Facebook} alt="" /> </a>
                             <a className="link" href="http://www.instagram.com/best_future_europ"> <img className="in" src={Instagram} alt="" /> </a>
                             <a className="link" href="https://telegram.me/Bestfutre"> <img className="tl" src={Telegram} alt="" /> </a>
                             <a className="link" href="https://wa.me/+380960498331"> <img className="wp" src={Whatsapp} alt="" /> </a>

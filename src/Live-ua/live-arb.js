@@ -21,7 +21,7 @@ class livearb extends Component {
                 <div className="live-container">
                     <img className="life-pic" src={Life} alt="" />
 
-                    <div className="life-div-arb">العيش في اوكرانيا</div>
+                    <div className="life-div-arb" id="Live-ua">العيش في اوكرانيا</div>
 
                     <div>
                         <p className="life-text-arb">:الحياة</p>
