@@ -150,6 +150,13 @@ ul {
         margin-top: 5vw;
         
     }
+
+    .inv-ul-arb{
+        margin-left: 0vw;
+        text-align: right;
+        
+       
+    }
       
     .inv-li{
         font-size: 4.5vw;
@@ -162,7 +169,8 @@ ul {
         font-size: 6vw;
         margin-right: 7vw;
         margin-top: 5vw;
-        margin-left: 1vw;
+        margin-left: 21vw;
+    
         font-family: 'Noticia Text', serif;
         color: white;
     }
