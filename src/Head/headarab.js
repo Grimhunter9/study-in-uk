@@ -25,7 +25,7 @@ class headarab extends Component {
 
                             <Navbar.Collapse id="responsive-navbar-nav">
 
-                                <nav><HashLink className="b" onClick={() => Bg1()} smooth to="Home">الرئيسية</HashLink></nav>
+                                <nav><HashLink className="b" onClick={() => Bg1()} smooth to="/">الرئيسية</HashLink></nav>
 
                                 <nav className="b">
                                     <div class="dropdown">
