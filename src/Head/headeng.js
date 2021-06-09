@@ -10,9 +10,7 @@ import Logo from './best.jpg';
 
 
 
-//© 2021 All Rights Reserved Terms of Use and Privacy Policy  add in the end 
 
-/*  */
 
 
 class headeng extends Component {
