@@ -1,4 +1,6 @@
+
 .banner-area {
+
 	width: 100vw;
 	height: 50vw;
 	position: fixed;
@@ -8,8 +10,8 @@
 }
 
 
-
 .banner-area h2 {
+
     font-size: 1.5vw;
     color: white;
     margin-left: 20vw;
@@ -26,9 +28,8 @@
 @media(max-width:1200px){
 
     .banner-area {
- 
+
         margin-top: 15vw;
-  
     }
 
     .banner-area h2 {

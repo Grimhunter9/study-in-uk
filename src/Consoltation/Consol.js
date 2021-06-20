@@ -23,12 +23,12 @@ class Consol extends Component {
 
                     <div className="consolt-form">
 
-                        <form action="" class="pageclip-form" method="post">
+                        <form action= "https://send.pageclip.co/fbD9KN7WDTR3AecfRTie9cAypE0LXAEx/Stuyinukraine" class="pageclip-form" method="post">
 
                             <input className="consolt-info" type={Text} name="name" required placeholder="Enter your Name..."></input>
                             <input className="consolt-info" type={Text} name="email" required placeholder="Enter your email..."></input>
                             <textarea className="consolt-touch" type={Text} name="body" required placeholder="Ask here..." ></textarea>
-
+                            
                             <button class="pageclip-form__submit" type="submit" >
                                 <span className="spa">submit</span>
                             </button>

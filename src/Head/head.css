@@ -1,10 +1,12 @@
   .header{
+
   z-index: 10;
 	position: fixed;
   display: flex;
   width: 100%;
   background-color: #143A83;
   border-bottom: white  solid;
+  
  }
 
   

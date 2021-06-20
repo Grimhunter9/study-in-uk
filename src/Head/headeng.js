@@ -9,10 +9,6 @@ import AB from './arab.jpg';
 import Logo from './best.jpg';
 
 
-
-
-
-
 class headeng extends Component {
 
     render() {
