@@ -84,6 +84,7 @@ import './Pickup/pick.css';
 
 class App extends Component {
 
+  
 
   state = {
     change: "en",
@@ -150,6 +151,9 @@ class App extends Component {
 
   render() {
 
+   
+
+
     return (
       <Mycontext.Provider value={{
         change: this.state.change, changelan: this.changelan, bg: this.state.bg,
@@ -167,12 +171,12 @@ class App extends Component {
           <div id="Home">
 
 
-           <div>{this.state.change == "en" ? <Henglish /> : <Harabic />}</div>
+            <div>{this.state.change == "en" ? <Henglish /> : <Harabic />}</div>
 
-           <div>{this.state.change == "en" ? <Roll /> : <Rollarb />}</div>
+            <div>{this.state.change == "en" ? <Roll /> : <Rollarb />}</div>
 
 
-          <div class="content-area">
+            <div class="content-area">
 
               <switch>
 
@@ -264,7 +268,7 @@ class App extends Component {
 
               </switch>
 
-           </div>
+            </div>
 
           </div>
 
